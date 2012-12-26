@@ -1,0 +1,39 @@
+{
+  "name": "cordovacrypt",
+  "description": "Encryption tool for cordova files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ioleksiy/cordovacrypt",
+  "author": {
+    "name": "Oleksii Glib",
+    "email": "me@oleksiy.pro",
+    "url": "http://oleksiy.pro/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ioleksiy/cordovacrypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ioleksiy/cordovacrypt/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ioleksiy/cordovacrypt/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies" : {
+    "crypto"   :  "*"
+  },
+  "main": "lib/cordovacrypt",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "corc" : "lib/cordovacrypt.js"
+  }
+}
